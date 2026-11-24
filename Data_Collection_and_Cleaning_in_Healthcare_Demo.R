@@ -38,7 +38,7 @@ keep_demo # print keep_demo
 # ====================================
 
 # Load dataset (replace path with your file)
-df <- read_csv("https://raw.githubusercontent.com/lhamo07/Data-607-Assignment/refs/heads/main/project-2/realworld_medical_dirty.csv")
+df <- read.csv("https://raw.githubusercontent.com/lhamo07/Data-607-Assignment/refs/heads/main/project-2/realworld_medical_dirty.csv")
 
 # Show the first 6 rows only (preview the dataset)
 head(df)
