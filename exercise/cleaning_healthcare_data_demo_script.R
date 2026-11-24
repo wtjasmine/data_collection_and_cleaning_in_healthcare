@@ -5,8 +5,7 @@ library(tools)
 library(lubridate)
 
 # Load data from GitHub
-url <- "https://raw.githubusercontent.com/wtjasmine/healthcare-data-cleaning/main/uncleaned_vaccine_data_demo.csv"
-df <- read.csv(url)
+df <- read.csv("https://raw.githubusercontent.com/wtjasmine/healthcare-data-cleaning/main/uncleaned_vaccine_data_demo.csv")
 print(df)
 
 
