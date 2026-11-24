@@ -74,7 +74,6 @@ sum(duplicated(df))
 df[duplicated(df), ]
 
 # Keep only unique rows
-library(dplyr) # load dplyr for data manipulation
 df_clean <- df %>% distinct()
 
 # Confirm duplicates removed (should return 0 if none exist) 
