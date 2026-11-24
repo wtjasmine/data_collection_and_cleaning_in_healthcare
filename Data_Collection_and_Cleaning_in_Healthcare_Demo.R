@@ -62,10 +62,7 @@ table(df$Smoker)
 # ====================================
 
 # Load from GitHub mirror (same as Kaggle dataset)
-url <- "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv"
-
-# Read the CSV file directly from the URL into a dataframe called df
-df <- read.csv(url)
+df <- read.csv("https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv")
 
 # Show the first 6 rows only (preview the dataset)
 head(df)
